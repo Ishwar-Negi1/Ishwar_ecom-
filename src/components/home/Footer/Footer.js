@@ -31,11 +31,11 @@ const Footer = () => {
     <div className="w-full bg-[#F5F5F3] py-20">
       <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-4 gap-10">
         <div className="col-span-2">
-          <FooterListTitle title=" More about Orebi Shop" />
+          <FooterListTitle title=" More about Ishwar Shop" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint
-              ab ullam, numquam nesciunt in.
+            My ecommerce website  uses digital methods to sell products and services to customers.
+            Our page can be online-only or have a physical presence as well. 
             </p>
             <ul className="flex items-center gap-2">
               <a
@@ -121,7 +121,7 @@ const Footer = () => {
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
             <p className="text-center mb-4">
-              A at pellentesque et mattis porta enim elementum.
+              You can subscribe to my Ecommerce page and can add different products.
             </p>
             {subscription ? (
               <motion.p
